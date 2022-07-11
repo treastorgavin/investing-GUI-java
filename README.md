@@ -1,32 +1,28 @@
 # investing-GUI-java
 
-Program Description
+## Program Description
 ----------------------
 This program implements 4 classes to manage a protfolio. The classes are Investment, Stock, MutualFund and Portfolio. Stock and Mutual Fund have the same attributes of: symbol, name, quantity, price and bookValue and are inherited from the investment class. The Portfolio class executes commands in the program and manages the Stocks and Mutual Funds in array lists.
 The program allows the user to do several functions: buy, sell, update, getGain, search, and quit.
 The public class portfolio extends GUI and all the prepare GUI functions create GUIs for each function.
 
-=======================================
+###### ========================
 To compile the program:
 compile everything in the ePortfolio
 javac ./ePortfolio/Portfolio.java
 
-
---------------------------------------
+###### ========================
 
 to run the program:
 
 java ePortfolio/Portfolio FILE_NAME.txt
 
-=======================================
+###### Limitations, Issues and Errors
 
-------------------------------
-Limitations, Issues and Errors
-------------------------------
 NA
-------------------------------
-Future improvements to be made
-------------------------------
+
+###### Future improvements to be made
+
 Future improvements could be to streamline the GUI code to be more efficient.
 Another improvement could be to adjust the Action listeners for specific buttons that execute the same process.
 e.g. there could be one listener for the Reset button that would reset all the fields in all the functions.
@@ -35,9 +31,7 @@ Right now the fields are being reset upon opening that funciton (option).
 Another improvement could be to specify the incorrect input. Right now it is just a general error warning that one of the feilds are incorrect. An improvement would be to specify what field is incorrect so the user can identify it faster. 
 
 
------------
-Test Plan
-----------
+###### Test Plan
 
 Testing if the input is valid for the commands:
 -empty string
